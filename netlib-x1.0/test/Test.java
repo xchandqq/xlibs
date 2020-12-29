@@ -41,6 +41,7 @@ public class Test {
     public static void main(String[] args) throws UnknownHostException, SocketException {
         NetworkInformation.startNetworkListener(NETWORK_LISTENER, 500, true);
         
+        //just to keep thread open
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 300);
